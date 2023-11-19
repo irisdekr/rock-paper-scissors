@@ -1,0 +1,51 @@
+.container {
+    display: flex; 
+    flex-direction: column;
+    font-family: roboto, sans-serif;
+}
+
+.header {
+    display: flex; 
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-top: 20px; 
+    padding-left: 200px; 
+    padding-right: 200px; 
+    background-color: black;
+    font-size: 24px;
+    color: #F9FAF8;
+    text-align: center; 
+}
+
+.section-2 {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 200px; 
+}
+
+.choose {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 200px; 
+    font-size: 36px; 
+    font-weight: 900;
+    color: #1F2937; 
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.images {
+    display: flex; 
+    align-items: flex-start;
+    gap: 30px;
+    padding-bottom: 30px;
+}
+
+#endOfGame {
+    text-align: center;
+    font-size: 26px; 
+    font-weight: 900;
+}
+
